@@ -1,0 +1,53 @@
+{
+  "name": "Delivery",
+  "description": "Propose a verifiable portal improvement",
+  "labels": [
+    "enhancement"
+  ],
+  "body": [
+    {
+      "type": "textarea",
+      "id": "context",
+      "attributes": {
+        "label": "Business context",
+        "description": "Who is affected and why?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "scope",
+      "attributes": {
+        "label": "Expected outcome and scope",
+        "description": "Describe the deliverable and boundaries."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "acceptance",
+      "attributes": {
+        "label": "Acceptance criteria",
+        "description": "List observable checks and expected results."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "dependencies",
+      "attributes": {
+        "label": "Dependencies",
+        "description": "Link prerequisites or enter None."
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}
